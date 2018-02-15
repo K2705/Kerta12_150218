@@ -12,13 +12,15 @@ namespace Teht3_MyFishApp
         public double Length { get; }
         public double Weight { get; }
         public FishingSpot CaughtAt { get; }
+        public Fisherman CaughtBy { get; }
 
-        public Fish(string species, double length, double weight, FishingSpot place)
+        public Fish(string species, double length, double weight, FishingSpot place, Fisherman caughtBy)
         {
             this.Species = species;
             this.Length = length;
             this.Weight = weight;
             this.CaughtAt = place;
+            this.CaughtBy = caughtBy;
         }
 
         public void Print()

@@ -32,5 +32,32 @@ namespace Teht3_MyFishApp
         {
             return FisherList.Find(x => x.Name == name);
         }
+
+        public void PrintAllFish()
+        {
+            foreach (Fisherman fisher in FisherList)
+            {
+                Console.WriteLine(fisher.Name + " Has caught the following fish:");
+                foreach (Fish fish in fisher.ListFish())
+                {
+                    fish.Print();
+                }
+            }
+        }
+
+        public void PrintAllFishByWeight()
+        {
+            List<Fish> allFish = new List<Fish>();
+            foreach (Fisherman fisher in FisherList)
+            {
+                allFish.AddRange(fisher.ListFish());
+            }
+            allFish.Sort((x, y) => y.Weight.CompareTo(x.Weight));
+            foreach (Fish fish in allFish)
+            {
+                fish.Print();
+                Console.WriteLine("Caught by " + fish.CaughtBy.Name);
+            }
+        }
     }
 }
