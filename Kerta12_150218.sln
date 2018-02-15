@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teht2_Ostokset", "Teht2_Ost
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teht3_MyFishApp", "Teht3_MyFishApp\Teht3_MyFishApp.csproj", "{D2776ED1-3725-40A7-82E3-3E242DE23077}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teht4_Shapes", "Teht4_Shapes\Teht4_Shapes.csproj", "{6F2C02C4-0912-4DB3-9F9D-15B7A51FBA0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D2776ED1-3725-40A7-82E3-3E242DE23077}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2776ED1-3725-40A7-82E3-3E242DE23077}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2776ED1-3725-40A7-82E3-3E242DE23077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F2C02C4-0912-4DB3-9F9D-15B7A51FBA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2C02C4-0912-4DB3-9F9D-15B7A51FBA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2C02C4-0912-4DB3-9F9D-15B7A51FBA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2C02C4-0912-4DB3-9F9D-15B7A51FBA0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
