@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esim1Tests", "Esim1Tests\Es
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teht1_Noppa", "Teht1_Noppa\Teht1_Noppa.csproj", "{798D562F-34D2-4AC4-97CE-297A6BBA16B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teht2_Ostokset", "Teht2_Ostokset\Teht2_Ostokset.csproj", "{2C43A66D-1083-4816-9695-DE188619E7C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teht3_MyFishApp", "Teht3_MyFishApp\Teht3_MyFishApp.csproj", "{D2776ED1-3725-40A7-82E3-3E242DE23077}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{798D562F-34D2-4AC4-97CE-297A6BBA16B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{798D562F-34D2-4AC4-97CE-297A6BBA16B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{798D562F-34D2-4AC4-97CE-297A6BBA16B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C43A66D-1083-4816-9695-DE188619E7C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C43A66D-1083-4816-9695-DE188619E7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C43A66D-1083-4816-9695-DE188619E7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C43A66D-1083-4816-9695-DE188619E7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2776ED1-3725-40A7-82E3-3E242DE23077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2776ED1-3725-40A7-82E3-3E242DE23077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2776ED1-3725-40A7-82E3-3E242DE23077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2776ED1-3725-40A7-82E3-3E242DE23077}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
