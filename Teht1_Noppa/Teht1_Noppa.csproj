@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F9D8F854-1178-4C10-84C6-A971F13F91FD}</ProjectGuid>
+    <ProjectGuid>{798D562F-34D2-4AC4-97CE-297A6BBA16B7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Esim1</RootNamespace>
-    <AssemblyName>Esim1</AssemblyName>
+    <RootNamespace>Teht1_Noppa</RootNamespace>
+    <AssemblyName>Teht1_Noppa</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
+    <Compile Include="Dice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
